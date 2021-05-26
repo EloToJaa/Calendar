@@ -1,0 +1,117 @@
+/* Łukasz Budziak 16.10.2018
+	style.css */
+
+/* Tło */
+body 
+{
+	font-family: Verdana;
+	font-size: 18px;
+	margin: 0px 5px 0px 5px;
+	font-weight: bold;
+}
+/* Główne selektory */
+#container
+{
+	padding-top: 10px;
+	padding-left: 10px;
+}
+#watch
+{
+	color: blue;
+}
+#calendar
+{
+	padding: 20px 0;
+	width: 100%;
+}
+/* Nazwy */
+#date
+{
+	text-align: center;
+	font-size: 20px;
+	padding-bottom: 20px;
+}
+#prevMonthName
+{
+	font-size: 20px;
+	text-align: center;
+	padding: 5px 0;
+}
+#monthName
+{
+	font-size: 20px;
+	text-align: center;
+	padding: 5px 0;
+}
+#pastMonthName
+{
+	font-size: 20px;
+	text-align: center;
+	padding: 5px 0;
+}
+/* Miesiące */
+#prevMonth
+{
+	margin-top: 10px;
+	float: left;
+}
+#month
+{
+	margin-top: 10px;
+	float: left;
+}
+#pastMonth
+{
+	margin-top: 10px;
+	float: left;
+}
+#holidays
+{
+	color: #006600;
+}
+/* Dni */
+.day
+{
+	text-align: center;
+	border: 3px;
+	float: left;
+	width: 13.5%;
+	height: 10%;
+	border-style: solid;
+	border-radius: 20px;
+	padding: 2% 0;
+	margin: 0.2%;
+}
+#pastMonthDay
+{
+	color: grey;
+	background-color: gainsboro;
+}
+#weekDay
+{
+	color: brown;
+	background-color:red;
+}
+#thisDay
+{
+	color: blue;
+}
+#holiday
+{
+	color: #006600;
+}
+#thisAndWeekDay
+{
+	color: blue;
+	background-color:red;
+}
+#holyAndWeekDay
+{
+	color: #006600;
+	background-color:red;
+}
+/* Odstępy w nav */
+.bt
+{
+	margin-left: 10px;
+}
